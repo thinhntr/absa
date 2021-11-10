@@ -1,0 +1,19 @@
+#1
+_ Ảnh chụp từ hôm qua, đi chơi với gia đình và 1 nhà họ hàng đang sống tại Sài Gòn. _ Hôm qua đi ăn trưa muộn, ai cũng đói hết nên lúc có đồ ăn là nhào vô ăn liền, bởi vậy mới quên chụp các phần gọi thêm với nước mắm, chỉ chụp món chính thôi! _ Đói quá nên không biết đánh giá đồ ăn kiểu gì luôn 😅😅😅_ Chọn cái này vì thấy nó lạ với tui.
+{FOOD#STYLE&OPTIONS, neutral}, 
+
+#2
+_Hương vị thơm ngon, ăn cay cay rất thích, nêm nếm vừa miệng. Ngoài ra menu quán cũng nhiều món khác nhau tha hồ cho bạn lựa chọn luôn._Quán rộng rãi, view khá đẹp và cũng thoáng lắm. Khách của quán đông nên nhiều khi nhân viên phục vụ không được nhanh cho lắm._Thịt heo rừng giá theo kì nên nhớ hỏi trước nhưng trung bình là 150k 1 phần. Hai bạn đi chung chi khoảng 400k hơn là ổn nhé.
+{FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}, {AMBIENCE#GENERAL, positive}, {RESTAURANT#PRICES, neutral}, {SERVICE#GENERAL, negative}, {FOOD#PRICES, neutral}
+
+#3
+- 1 bàn tiệc hoành tráng 3 đứa ăn no muốn tắt thở mà giá chỉ 228k (ăn trung đợt giảm 10%), mình thích nhất pad thái vs gà nướng - đúng kiểu Thái luôn, quán nhỏ, trong hẻm, cơ mà anh phục vụ rất dễ thương, chế biến hợp vệ sinh, bếp lộ thiên lại còn có thể xin nấu cùng - đã!
+{RESTAURANT#PRICES, positive}, {FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}, {SERVICE#GENERAL, positive}, {AMBIENCE#GENERAL, negative}, {LOCATION#GENERAL, negative}, {RESTAURANT#MISCELLANEOUS, positive}
+
+#4
+- Các bạn nhìn cái chảo này có to không 🙄🙄🙄- Trên hình thấy nó cũng to mà ra bên ngoài nó bé tí tẹo tèo teo í 😅😅😅😅- Mà nhìn hoàng tráng lắm - Ăn là no muốn lăn luôn hahaaa - Cái này từ hồi mình ở Hà Nội đã thèm thuồng và vẫn chưa có cơ hội thử thì vô Sài Gòn có quán bánh mì chảo đậm chất Hà Nội đây 👍🏼👍🏼👍🏼- Thêm địa điểm cho mấy bạn nên đi thử nhé - Không thất vọng đâu vì nó khá ngon hê hê
+{FOOD#QUALITY, positive}, {RESTAURANT#GENERAL, positive}
+
+#5
+- Cháo: có nhiều hương cho các bạn chọn, nhưng mình thì chọn hương lá dứa. Cháo thì cỡ hai chén là hết, cháo khá nhừ và thơm, cháo thơm mùi gạo tự nhiên😍- Ếch: vị satế, vì mình cực kì thích ăn cay. Nồi ếch thơm lừng , ăn tại chỗ thì ếch nóng hổi , ăn nóng bao ngon luôn. Cay cay, mặn mặn hoà chung với cháo thì siêu ngon luôn😝
+{FOOD#STYLE&OPTIONS, positive}, {FOOD#QUALITY, positive}

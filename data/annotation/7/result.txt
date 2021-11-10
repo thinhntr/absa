@@ -1,0 +1,19 @@
+#371
+9/10Tín đồ của bún riêu thì không thể không biết chỗ này, quá nổi rồi. Giá : 40 ~ 50k/bát. Nói chung là đậu, thịt, riêu và giò đầy đặn. Nước thanh và quyện, không hề bị tanh mà rất thơm lại ngọt nhé. Mê lắm không bỏ được 💕
+{RESTAURANT#GENERAL, positive}, {FOOD#PRICES, neutral}, {FOOD#STYLE&OPTIONS, positive}, {FOOD#QUALITY, positive}
+
+#372
+90k/2 ngườiSiêu thích bún bò chỗ Quang Trung này, hiện nay đây là quán bún bò huế thích nhất. Quán tên O Xuân.
+{FOOD#PRICES, neutral}, {RESTAURANT#GENERAL, positive}
+
+#373
+95k là nồi nước lẩu thui nha. Gọi thêm đồ là tính tiền đi kèm nhưng cũng chỉ trung bình 50k-60k đĩa đồ nhúng đầy đặn nhé! Nước dùng có nước lẩu trường thọ, nước lẩu uyên ương đặc biệt nước lẩu ở đây rất thanh không bị ngấy mỡ.
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}
+
+#374
+99kKhông ngon như mình mong đợi
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, negative}
+
+#375
+ai ăn ở đây thì cũng biết rồi nhỉ..bún lòng lạ mà ngon..thay bằng đậu rán bình thường thì toàn lòng rán và dồi rán nhé..giòn giòn ngậy ngậy thơm ngon lắm ạ 😚 vừa rẻ mà lại vừa ngon 😁 no căng rún luôn ý 😤
+{FOOD#QUALITY, positive}, {FOOD#PRICES, positive}

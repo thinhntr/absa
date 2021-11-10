@@ -1,0 +1,19 @@
+#1
+50K đĩa này là quá đắt íh huhu không cần biết chỗ này nổi tiếng thế nào :(( Lên Nghĩa Dũng ăn có 25K thôiii :( 1 lần và mãi mãi không dám tới đây lun huhu
+{FOOD#PRICES, negative}, {RESTAURANT#GENERAL, negative}
+
+#2
+50k/mẹt đầy đủ. Đây là mẹt cho hai người, mẹt đầy đủ nhưng khá ít đồ ăn kèm với bún. Có 4 vị: Lòng, đậu rán, chả cốm, chả giòNhưng nhìn chung là ăn no đẫy người. Cơ mà theo mình 50k là hơi chát so với chất lượng!! :)
+{FOOD#PRICES, negative}, {FOOD#STYLE&OPTIONS, neutral}, {RESTAURANT#GENERAL, positive}
+
+#3
+5k/cái chất lượng.vỏ xôi giòn, trong mềm. ở giữa có thịt gà nạc xé nhỏ được ướp gia vị vừa vặnăn 2-3 cái là no luôn ýquán nhỏ nằm (gần ngã 3) trong ngõ 130 xuân thủy. chủ quán thân thiện
+{FOOD#PRICES, positive}, {FOOD#QUALITY, positive}, {SERVICE#GENERAL, positive}, {AMBIENCE#GENERAL, negative}, {LOCATION#GENERAL, neutral}
+
+#4
+6 người ko hết chỗ này ạ :)) cảm giác rất là tiếc vì bỏ thừa nhưng bởi chẳng nghĩ là lại no đến thế đâu ý. Kể cả với người ko quen món Ấn cũng đề sẽ dễ thưởng thức bởi đầu bếp đã gia giảm để hợp với khẩu vị người Việt rồi nhé. Nói chung là ngon, giá rất ổn bởi mỗi suất khá to, ăn no đó.
+{RESTAURANT#PRICES, positive}, {FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}
+
+#5
+6. Bánh giò ở đây lúc nào cũng đầy ắp, no căng bụng. Bạn có thể chọn giò tai hoặc giò lụa đều được, còn mình thì toàn ăn chả cốm :D Vỏ bánh mềm mà không hề bị nát, còn thơm thơm mùi bột gạo vs cả lá chuối nữa ý. Nhân bánh lúc nào cũng nhiều, một suất đầy như này nhưng không bao giờ bị ngấy. Thêm ít dưa góp chua chua ngọt ngọt vừa làm vị thêm hài hòa vừa bổ sung vitamin, hehe
+{FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}

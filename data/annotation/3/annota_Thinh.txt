@@ -1,0 +1,19 @@
+#1
+50 cành. Ăn cũng đáng. Ngon nổi tiếng. Nhiều dưa bò :))). Ăn xong no quên thở :)) 😍👍🏽
+{FOOD#QUALITY, positive}, {RESTAURANT#PRICES, neutral}, {FOOD#STYLE&OPTIONS, positive}
+
+#2
+50.000 đồng một bát bình thường và 75.000 đồng cho bát đặc biệt là mức giá không phải quán phở bình dân nào cũng dám bán. Có lẽ chỉ tiệm phở phố Gầm Cầu mới “thách thức” thực khách như vậy.Quán này nằm đoạn sát với mặt phố Hàng Giấy, chỉ bán vào buổi sáng.
+{FOOD#PRICES, negative}, {RESTAURANT#MISCELLANEOUS, neutral}, {LOCATION#GENERAL, neutral}
+
+#3
+500-600k ăn tẹt cho 4-5 người cả nhà nhé....quán này đông khách thôi rồi, thích nhất món ếch xào chua ngọt 😜😜😜😜😜
+{FOOD#QUALITY, positive}, {RESTAURANT#PRICES, positive}, {RESTAURANT#GENERAL, neutral}
+
+#4
+50k 1 bát bún riêu thập cẩm nhưng chất lượng lắm ýBún riêu thập cẩm có cá, chả cá, ốc nhồi, thịt bò, giò, đậu phụ, cua, mọc 😊😊  hương vị đặc trưng dã man Sợi bún ở đây ăn cũng ngon hơn mấy chỗ mình ăn, ăn mịn như kiểu bánh canh ý - ngonĐc free trà đá - nóng 😝, nhân viên nhiệt tình, nhanh nhẹn  dù quán rất đôngQuán có nhiều loại bún đều ngon cả từ 30- 50k
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}, {DRINKS#PRICES, positive}, {SERVICE#GENERAL, positive}, {RESTAURANT#GENERAL, neutral}
+
+#5
+50k 1 bát mỳ trộn 💔💖, ăn no căng 😂 nhưng mình thấy đinh liệt vẫn là ngon nhất 😍🎉
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}
