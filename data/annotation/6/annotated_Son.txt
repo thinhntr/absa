@@ -1,0 +1,19 @@
+#1
+8. Mình không thích ăn ốc lắm nhưng công nhận là ăn ở đây ngon :3 Ngon không phải vì ốc có gì đặc sắc mà phải kể đến nước chấm siêu cầu kì và không hàng ốc nào có được hương vị ngon như chỗ này. Quán còn rất biết kéo chân khách hàng bằng món xoài ương dầm trong nước chấm nâu sánh thơm lừng =P~ Nghĩ đến thôi là chỉ muốn phi thẳng đến quán ý :x
+{FOOD#QUALITY, positive}, {RESTAURANT#GENERAL, positive}
+
+#2
+85k mẹt này thêm một mẹt đậu 7 vị đằng sau nữa hai người ăn là vừa phải, không bị no quá. Gà ngon, đậu ngon, xôi để lâu hơi bị khô chút. Quán có anh đầu bếp vui tính, đi từ Trần Đăng Ninh ra thì dễ tìm hơn nhé.
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {SERVICE#GENERAL, positive}, {LOCATION#GENERAL, positive}
+
+#3
+89k nhg vẫn phải gọi thêm mì, nước, lửa nên tầm 100k hoặc hơn tí tẹo. Ngon lắm nhé. Đầy ú ụ nước còn đậm!
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}
+
+#4
+8k/con Nhân pho mai , socola , đậu đỏ , đậu phộng , pate , xúc xích ... Ngon nhất là pho mai thơm nức mũi
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}
+
+#5
+9 điểm. Cơm hơi khô, nhưng gà ngon, nấm ngon. Có nộm ăn kèm, nộm có cả xoài chua chua nữa chứ, có cả canh, cũng chua chua, đưa cơm không chịu được 😍😍😍Không gian quán đẹp, view cũng ok, anh chị phục vụ nhiệt tình và cực thân thiện. Nói chung là mê luôn rồi ??😘
+{FOOD#QUALITY, positive}, {RESTAURANT#GENERAL, positive}, {SERVICE#GENERAL, positive}, {AMBIENCE#GENERAL, positive}
