@@ -12,8 +12,8 @@ from google_drive_downloader import GoogleDriveDownloader as gdd
 from sklearn.base import BaseEstimator, TransformerMixin
 
 st.set_page_config(
-    page_title="ABSA for Restaurant",
-    page_icon="🥘"
+    page_title="ABSA Restaurant",
+    page_icon="🍣"
 )
 
 
@@ -166,7 +166,7 @@ elif st.session_state.mode == modes[1]:
 
     uploaded_file = st.sidebar.file_uploader('Upload texts', type='txt')
 
-    def restore():
+    def refresh():
         state = st.session_state
         doc_id = state.doc_id
         if state.df is None:
@@ -182,7 +182,7 @@ elif st.session_state.mode == modes[1]:
         st.session_state.doc_id = 0
         st.session_state.ndocs = len(df)
         st.session_state.prev_fileid = uploaded_file.id
-        restore()
+        refresh()
     elif uploaded_file is None:
         st.session_state.df = None
         st.session_state.doc_id = None
@@ -221,7 +221,7 @@ elif st.session_state.mode == modes[1]:
             state.doc_id = min(state.ndocs - 1, doc_id + 1)
         else:
             state.doc_id = max(0, doc_id - 1)
-        restore()
+        refresh()
 
     def annotate_all():
         df = st.session_state.df
@@ -231,7 +231,7 @@ elif st.session_state.mode == modes[1]:
         y[y == 3] = 'positive'
         y[y == 0] = np.nan
         df.iloc[:, 1:] = y
-        restore()
+        refresh()
 
     def auto():
         df = st.session_state.df
@@ -240,7 +240,7 @@ elif st.session_state.mode == modes[1]:
         result = classify_sentence(text)
         df.iloc[doc_id, 1:] = [sentiments[result[i]]
                                if result[i] else np.nan for i in range(len(result))]
-        restore()
+        refresh()
 
     # --------------------------------------------------
 
@@ -248,10 +248,9 @@ elif st.session_state.mode == modes[1]:
         state = st.session_state
         doc_id = state.doc_id
         df = state.df
-        st.button('Annotate all ⚡', on_click=annotate_all)
         doc_ids = range(state.ndocs)
         st.selectbox('Choose document', doc_ids,
-                     key='doc_id', on_change=restore)
+                     key='doc_id', on_change=refresh)
         current_doc = df.loc[doc_id]
         st.write(current_doc[0])
         st.write(f'**{label_decoder(current_doc[1:])}**')
@@ -260,8 +259,9 @@ elif st.session_state.mode == modes[1]:
         cols = st.columns(4)
         cols[0].button('⏮ Prev', on_click=on_next_prev, args=(False, ))
         cols[1].button('Next ⏭', on_click=on_next_prev, args=(True, ))
-        cols[2].button('Auto 🔮', on_click=auto)
-        cols[3].button('Restore 🔁', on_click=restore)
+        cols[2].button('Auto 🐢', on_click=auto)
+        cols[3].button('Auto ⚡', on_click=annotate_all)
+
 
         containers = []
 
