@@ -1,0 +1,19 @@
+#1
+Ai bún cá ko 😋😋😋. Bún cá yummy, ngon mê ly. Món ăn vừa thanh, vừa mát, ăn 1 bát này xong lấy lại năng lượng cho cả ngày luôn ấy. Giá tầm 30~40k cho 1 bát, ko đắt ^^.
+{FOOD#PRICES, positive}, {FOOD#QUALITY, positive}
+
+#2
+Ai đi qua số 1 phố Ngõ Trạm thì ghé ủng hộ bà dù chỉ một cái nem nhé. Bà 87 tuổi rồi - cái tuổi mà đáng ra phải được hưởng phúc của con cháu, bà vẫn ngày ngày đem gánh hàng ra bán.Ngồi nghe bà kể chuyện hay lắm. Bà bán từ tầm 12h (hôm nào muộn thì 1h) - 3h là hết hàng. Nem của bà 4k/cái to hơn những nơi khác, nem chua ngon nướng lên dẻo dính ngon lắm; cá bò 8k/con mềm ngon, nướng lên vàng ruộm.
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {RESTAURANT#MISCELLANEOUS, neutral}, {LOCATION#GENERAL, neutral}
+
+#3
+Ai k đên đây a thì quá tiếc, vừa ngon giá lại rẻ giật mình , no nê hết 190k nước lâu chua cay ngon tuyệt
+{FOOD#PRICES, positive}, {FOOD#QUALITY, positive}
+
+#4
+ai không ân được cay ra đây là chuẩn ạh 🤤 nhưng muốn cay thì cứ cho tương ớt vào thuiii. nộm ngon, bánh bột lọc ngon, mỗi tội cái view vỉa hè hay có xe khánh dừng đỗ làm cho khói mù mịt hơi khó chịu :(
+{FOOD#QUALITY, positive}, {AMBIENCE#GENERAL, negative}
+
+#5
+Ai là fan cuồng bún chả mà ở gần khu Mễ Trì thì ra đây là một lựa chọn sáng suốt!!! Nước mắm màu trong, vị vừa phải không bị quá mặn. Thịt mềm, thơm mùi xả. Ăn với chuý bún, chút rau sống... đúng là tuyệt cú mèoooo 👌🏻👌🏻👌🏻
+{FOOD#QUALITY, positive}, {RESTAURANT#GENERAL, positive}
