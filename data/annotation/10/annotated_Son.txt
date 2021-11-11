@@ -1,0 +1,19 @@
+#1
+Ăn 1 đĩa 52k như thế này chắc phải ăn 10 đĩa mới tạm no... Kiểu này zai nào có ý định dẫn gấu đi ăn thì cứ liều liệu :3 =))
+{FOOD#PRICES, neutral}
+
+#2
+ăn 1 lần đảm bảo muốn ăn lần 2 ngon dmannn👍🏻 giá cũng khá là ổn😊 nchung là nghiền!!!!!
+{FOOD#PRICES, positive}, {FOOD#QUALITY, positive}, {RESTAURANT#GENERAL, positive}
+
+#3
+Ăn 1 lần là nghiền nghiện nheee, nước chấm chua cay ngọt ngonn lắmm. Mỗi tội làm hơi lâu. Nchung chân cánh gà rang muối hay chiên mắm ở đây đều ok đáng thử!!
+{FOOD#QUALITY, positive}, {SERVICE#GENERAL, negative}
+
+#4
+Ăn 1 lần và mãi mãi ko bao h quay trở lại. Nó thấy khách lạ nó bóp thì phải. Thấy quảng cáo bát bún thang hấp dẫn giá 35k phải chăng đến ăn thử xem thế nào. Ôi thất vọng tràn trề 😩 bát bún lõng bõng toàn nc đc vài sợi bún + mấy miếng thịt gà + vài sợi trứng thái mỏng dính mà 50k. Đúng kiểu chém người bằng đồ ăn 😂 thêm trứng với tim 30k. Ăn xong kêu thanh toán 130k đập vào mặt. Tớ chụp ảnh đẹp và ngon vậy thôi nhưng ở ngoài đúng như tớ tả bằng văn ở trên ý. 😢
+{FOOD#PRICES, negative}, {FOOD#STYLE&OPTIONS, negative}, {RESTAURANT#GENERAL, negative}, {SERVICE#GENERAL, negative}
+
+#5
+Ăn 1 suất caramen sữa chua hoa quả ở đây là no căng bụng! ^^ caramen thơm ngon, sữa chua hịn k phải loại k có nhãn mác đâu nhé, thạch ngon, hoa quả nhiều! 1 "khay" này ăn mãi mới hết giá 25k. Quán này còn có thêm nhiều món vặt khác như nui xào bò, gimbap chiên, phở cuốn và nem chua, xúc xích nữa :) túm lại là chỉ thích caramen hoa quả ở đây thôi, những món khác bổ sung nhưng bình thường.g
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}

@@ -1,0 +1,19 @@
+#1
+Chắc vì mọi người khen qtqđ + xem clip trên mạng đc chỉnh màu siêu đẹp nên đi ăn thử thấy cũng bt ?? k đến mức vi diệu như đc ca tụng
+{FOOD#QUALITY, neutral}
+
+#2
+Chấm điểm 10. Trông thế chứ ko phải nơi nào làm sụn gà cũng ngon bằng ở đây đâu, sụn giòn và mềm, muối nêm vừa vặn.
+{FOOD#QUALITY, positive}
+
+#3
+Chán cơm thèm cháo, mà ăn 1 lần là phải ăn luôn cả nồi lẩu.1 nồi hơi bị nhiều luôn, đồ ăn thì ngập mặt, lòng ở đây làm sạch sẽ, ko bị hôi tanh, ăn cũng yên tâm nữa. Ăn kèm còn có quẩy, rau sống. Nước chẩm pha cũng ok nữa.2 người no nê tầm 200k. @Tép Ỉn
+{FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}
+
+#4
+Chán cơm thèm phở, ăn phở thì vừa ngon vừa bổ nè.Hàng phở ở đây nổi tiếng rồi, ở đây có phở sốt vang khá ngon. Còn phở thường thì cũng ok lắm. Nước dùng trong, ngọt thanh. Thịt thà cho cũng nhiều.Giá khá cao, tầm 50k/ tô. 2 người cũng hết 100k :(. @Trần Sơn Tùng
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {RESTAURANT#GENERAL, positive}
+
+#5
+Chân gà 10-15k 1 cái rang muối đậm đà 👌🏻. Mình ăn ở đấy thấy còn ngon hơn trên Hàng Thùng nữa ấy. Ngoài ra có chim cút sốt me 1 đĩa cũng chỉ tầm 20-25k, tầm 100-120k 2 ng là no nê luôn 👍🏻
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}
