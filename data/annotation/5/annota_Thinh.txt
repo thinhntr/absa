@@ -1,0 +1,19 @@
+#1
+60k đĩa như ảnh 2 người ăn k hết lun 😝😝😝
+{FOOD#PRICES, neutral}
+
+#2
+60k/2 ng. No căng
+{FOOD#PRICES, neutral}
+
+#3
+60k/đĩa. Phục vụ nhanh, nêm nếm vừa miệng mỗi tội hơi nhiều dầu mỡ, thịt bò bắp ngon và thơm phức luôn 😉
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {SERVICE#GENERAL, positive}
+
+#4
+65 đường láng, ngon mà rẻ kinh khủng
+{RESTAURANT#PRICES, positive}, {RESTAURANT#GENERAL, positive}, {LOCATION#GENERAL, neutral}
+
+#5
+70k/suất !? Quá đắt cho đĩa này, nước sốt ít, nhưng đậm vị, ngon, thịt đc 2 miếng cũng to bthg, nhưng dai, dễ bã. Pate hơi chín quá, ăn cũng đc, trứng lòng đào ngon :)))))) Thêm mỗi cốc trà đá là 5k, đi ăn trưa mà thiệt hại hết 150k, ko đáng.Quán này bé, 1 quán chứa khoảng 10 người lớn là cùng.
+{FOOD#PRICES, negative}, {FOOD#QUALITY, neutral}, {FOOD#STYLE&OPTIONS, neutral}, {DRINKS#PRICES, neutral}, {AMBIENCE#GENERAL, negative}
