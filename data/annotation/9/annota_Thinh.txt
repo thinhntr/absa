@@ -1,0 +1,19 @@
+#1
+Ai là sv HUBT thì thể nào cũng biết hàng bún cá này 😍 ngon mà rất rẻ nhé, ngay sau trường HUBT lun
+{FOOD#PRICES, positive}, {FOOD#QUALITY, positive}, {LOCATION#GENERAL, neutral}
+
+#2
+Ai là tín đồ thịt ngan chắc chắn k thể bỏ qua được hàng Ngan dé nàyy. Ở đây có đầy đủ bún miến ngan trộn nước. Bát bún ngan trộn này gồm thịt ngan luộc, măng cay, chả ngan nướng cùng nhiều nguyên liệu khác. 1 bát ăn no đến gìa lunnnn❤️❤️ Đi kèm theo đó là bát nước cùng tiết ngan đc trần vừa chín tới..hương vị thì miễn chê nha! 1 suất đầy đủ ú ụ là 40-45k ạ. #thatthemthuong
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}, {RESTAURANT#GENERAL, positive}
+
+#3
+Ai mà hay đi qua đoạn đường Láng đoạn gần Ngã Tư Sở thì chắc chắn biết cả dãy bún bò Huế nàyy 😍 Hầu như hàng nào cũng đồng giá 30k/bát mà lại bát to đùng. Riêng mình thì hay ăn hàng Quỳnh Béo or Tùng Béo (hàng này kèm trà chanh free nữa cơ) tại mình thấy nước và vị rất hợp. Cả hai hàng ngay cạnh nhau lun..
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, positive}, {FOOD#STYLE&OPTIONS, positive}, {DRINKS#PRICES, positive}, {LOCATION#GENERAL, neutral}
+
+#4
+ai thích sang chảnh sạch sẽ thì đến đây. Còn ngon thì hoàn toàn bt, đừng bị đánh lừa bởi tận 5 cơ sở.Gọi theo suất từ 2 suất trở lên, 200k đc 1 đĩa gầu vs 1 đĩa bắp k phải vơi nhg đầy như mn nói thì chẳng có đâu.Rau, mì thì đc gọi miễn phí.Trà đá ở đây là trà sâm dứa, cảm giác như đc đến Đà Nẵng vậy.Nước lẩu mình thấy chưa đủ độ chua, có thể toàn hương vị tự nhiên từ dứa k có hương liệu, nhg vì thế cũng nhàn nhạt, chưa tới.Điểm buồn cười là k có váng đậu, cũng ko có quẩy chấm nước dùng. So với bò nhúng dấm 999 Trần Xuân Soạn thì thua xa hơn mỗi cái không gian.Phục vụ siêu siêu chậm, k có nv nào care riêng khu nào nên toàn quên quên nhớ nhớ gọi cả nửa tiếng mới bưng đc tẹo đồ ra.
+{FOOD#PRICES, neutral}, {FOOD#QUALITY, neutral}, {FOOD#STYLE&OPTIONS, neutral}, {DRINKS#QUALITY, positive}, {SERVICE#GENERAL, negative}, {AMBIENCE#GENERAL, positive}
+
+#5
+Ăn 1 chảo thôi mà cảm giác lâu vch 😂😂😂 khác với quán bánh mì chảo bon bon thì ở đây đầy đủ mọi thứ hơn. Mọi ng ăn 1 chảo thôi cũng đã lo lắm rồi đc thêm 2 chiếc bánh mì và 1 bát dưa chuột muối 👍🏻👍🏻👍🏻👍🏻Ở đây con có thêm cả sốt vang và bánh tráng trộn,...bla..blo...Chúc mọi ng buổi tối ngon miệng 😘😘😘😊😊😊
+{FOOD#STYLE&OPTIONS, positive}
