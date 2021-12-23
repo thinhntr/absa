@@ -4,34 +4,92 @@ from pathlib import Path
 
 import emoji
 import joblib
+import sklearn
+import unicodedata
 import numpy as np
 import pandas as pd
-import sklearn
 import streamlit as st
-from google_drive_downloader import GoogleDriveDownloader as gdd
+
+from functools import partial
+from emoji import get_emoji_regexp
+from flashtext import KeywordProcessor
 from sklearn.base import BaseEstimator, TransformerMixin
+from google_drive_downloader import GoogleDriveDownloader as gdd
+
+
 
 st.set_page_config(
     page_title="ABSA Restaurant",
     page_icon="🍣"
 )
 
+HASHTAG = 'hashtag'
 
-class TextCleaner(BaseEstimator, TransformerMixin):
+class TextCleanerBase(BaseEstimator, TransformerMixin):
+    def __init__(self):
+        super().__init__()
+
+        # Find emojis
+        emoji = get_emoji_regexp()
+
+        # Create preprocessing function
+        self.remove_emoji      = partial(emoji.sub, '')
+        self.normalize_unicode = partial(unicodedata.normalize, 'NFC')
+
     def fit(self, X, y=None):
         return self
 
     def transform(self, X):
-        emoji_regexp = emoji.get_emoji_regexp()
-        return np.array([emoji_regexp.sub('', text) for text in X])
+        if not isinstance(X, pd.Series):
+            X = pd.Series(X)
 
+        return X.apply(str.lower) \
+                .apply(self.remove_emoji) \
+                .apply(self.normalize_unicode)
+        
 
-pipeline_fp = Path('./model/full_pipe.joblib')
+class TextCleaner(TextCleanerBase):
+    def __init__(self):
+        super().__init__()
 
-if not pipeline_fp.is_file():
-    gdd.download_file_from_google_drive(
-            file_id='1WCxg-W7ELsgKWA05gNXkPE1FBGe_xNb8',
-            dest_path=pipeline_fp)
+        # Find hashtag
+        hashtag = re.compile('#\S+')
+
+        # Find price tags
+        pricetag = '((?:(?:\d+[,\.]?)+) ?(?:nghìn đồng|đồng|k|vnd|d|đ))'
+        pricetag = re.compile(pricetag)
+
+        # Find special characters
+        specialchar = r"[\"#$%&'()*+,\-.\/\\:;<=>@[\]^_`{|}~\n\r\t]"
+        specialchar = re.compile(specialchar)
+
+        # Spelling correction
+        rules = {
+            "òa":["oà"], "óa":["oá"], "ỏa":["oả"], "õa":["oã"], "ọa":["oạ"],
+            "òe":["oè"], "óe":["oé"], "ỏe":["oẻ"], "õe":["oẽ"], "ọe":["oẹ"],
+            "ùy":["uỳ"], "úy":["uý"], "ủy":["uỷ"], "ũy":["uỹ"], "ụy":["uỵ"],
+            "ùa":["uà"], "úa":["uá"], "ủa":["uả"], "ũa":["uã"], "ụa":["uạ"],
+            "xảy":["xẩy"], "bảy":["bẩy"], "gãy":["gẫy"],
+            "không":["k", "hông", "ko", "khong"]}
+
+        kp = KeywordProcessor(case_sensitive=False)
+        kp.add_keywords_from_dict(rules)
+
+        # Create preprocessing functions
+        self.autocorrect          = kp.replace_keywords
+        self.normalize_pricetag   = partial(pricetag.sub, 'giá_tiền')
+        self.normalize_hashtag    = partial(hashtag.sub, HASHTAG)
+        self.remove_specialchar   = partial(specialchar.sub, '')
+
+    def transform(self, X):
+        X = super().transform(X)
+
+        return X.apply(self.autocorrect) \
+                .apply(self.normalize_pricetag) \
+                .apply(self.normalize_hashtag) \
+                .apply(self.remove_specialchar)
+
+pipeline_fp = Path('./model/pipe.joblib')
 
 full_pipeline = joblib.load(pipeline_fp)
 
