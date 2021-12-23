@@ -14,7 +14,6 @@ from functools import partial
 from emoji import get_emoji_regexp
 from flashtext import KeywordProcessor
 from sklearn.base import BaseEstimator, TransformerMixin
-from google_drive_downloader import GoogleDriveDownloader as gdd
 
 
 
