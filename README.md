@@ -8,6 +8,13 @@
 - Annotate data (for training, testing...)
 - Compare results (between annotators)
 
+### Offline
+
+1. `pip install -r requirements.txt`
+2. `streamlit run app.py`
+
+### Online
+
 👉 [Live App](https://share.streamlit.io/thinhntr/absa/main/app.py) 👈
 
 ## Note
