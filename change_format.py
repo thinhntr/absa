@@ -5,8 +5,20 @@ import numpy as np
 import pandas as pd
 
 
-aspects_url = 'https://raw.githubusercontent.com/thinhntr/CS221.M11.KHCL-Aspect-Based-Sentiment-Analysis/main/data/csv/aspects.json'
-aspects = json.loads(requests.get(aspects_url).text)
+aspects = [
+   "FOOD#PRICES",
+   "FOOD#QUALITY",
+   "FOOD#STYLE&OPTIONS",
+   "DRINKS#PRICES",
+   "DRINKS#QUALITY",
+   "DRINKS#STYLE&OPTIONS",
+   "RESTAURANT#PRICES",
+   "RESTAURANT#GENERAL",
+   "RESTAURANT#MISCELLANEOUS",
+   "SERVICE#GENERAL",
+   "AMBIENCE#GENERAL",
+   "LOCATION#GENERAL"
+]
 
 def label_encoder(label):
     y = [np.nan] * len(aspects)
