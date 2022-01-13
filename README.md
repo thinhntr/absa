@@ -20,7 +20,7 @@
 - `data/original`: original data
 - `data/csv`: new format (converted from original data using `change_format.py`)
 
-# References
+## References
 
 1. [VLSP 2018 - Aspect Based Sentiment Analysis (VABSA 2018)](https://vlsp.org.vn/vlsp2018/eval/sa)
 2. [Annotation Guidelines](https://vlsp.org.vn/sites/default/files/2019-06/Guidelines-SA-Restaurant%20%285-3-2018%29.pdf)
