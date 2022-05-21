@@ -27,6 +27,17 @@
 - `data/original`: original data
 - `data/csv`: new format (converted from original data using `change_format.py`)
 
+## Screenshots
+
+### Classify user sentence
+![](https://imgur.com/ZbnsTu1.png)
+
+### Annotate raw data
+![](https://imgur.com/ryiAjvC.png)
+
+### Compare labeled results between annotators
+![](https://imgur.com/nkCe96x.png)
+
 ## References
 
 1. [VLSP 2018 - Aspect Based Sentiment Analysis (VABSA 2018)](https://vlsp.org.vn/vlsp2018/eval/sa)
